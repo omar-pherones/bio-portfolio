@@ -1,0 +1,276 @@
+@media (max-width: 1399.98px) {
+}
+@media (max-width: 1199.98px) {
+    #navbar {
+        padding: 20px 0px;
+    }
+    #banner .banner-left h1 {
+        font-size: 60px;
+        line-height: initial;
+    }
+    #banner .social-link {
+        display: none;
+    }
+
+    #resume .resume-center .image {
+        position: initial;
+        top: 0;
+        margin: 30px 0px;
+        transform: translateX(0);
+        text-align: center;
+    }
+}
+@media (max-width: 991.98px) {
+    #navbar {
+        padding: 15px 0px;
+    }
+    #navbar .navbar-nav li a.custome_btn {
+        display: none;
+    }
+    #navbar .navbar-nav {
+        background-color: #1f2235;
+    }
+    #banner::after {
+        display: none;
+    }
+    #banner .social-link {
+        display: none;
+    }
+    #banner .banner-left h1 {
+        margin-bottom: 15px;
+        font-size: 50px;
+        line-height: initial;
+        margin-top: 15px;
+    }
+    #banner {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    #banner .banner-left p {
+        width: auto;
+    }
+    /* Resume section start  here */
+
+    #resume .resume-center .image {
+        position: initial;
+        top: 0;
+        margin: 30px 0px;
+        transform: translateX(0);
+        text-align: center;
+    }
+    #resume .resume-right {
+        margin-top: 25px;
+    }
+    #resume .flex-container {
+        justify-content: center;
+    }
+    /* testimonial section start here  */
+    .testimonial-image {
+        margin-top: 30px;
+        text-align: center;
+    }
+    /* testimonial section end here  */
+    /* Resume section end here */
+    /* Blog section start here  */
+    #blog .blog-item .blog-deatils .blog-title h3 {
+        font-size: 22px;
+        line-height: initial;
+    }
+    /* Blog section end here  */
+}
+@media (max-width: 767.98px) {
+    section {
+        padding: 80px 0px;
+    }
+    #navbar {
+        padding: 15px 0px;
+    }
+    #navbar .navbar-nav li a.custome_btn {
+        display: none;
+    }
+    #navbar .navbar-nav {
+        background-color: #1f2235;
+    }
+    #banner::after {
+        display: none;
+    }
+    #banner .social-link {
+        display: none;
+    }
+    #banner .banner-left h1 {
+        margin-bottom: 15px;
+        font-size: 45px !important;
+        line-height: initial;
+        margin-top: 15px;
+    }
+    #banner {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    #banner .banner-left p {
+        width: auto;
+    }
+    /* Resume section start  here */
+
+    #resume .resume-center .image {
+        position: initial;
+        top: 0;
+        margin: 30px 0px;
+        transform: translateX(0);
+        text-align: center;
+    }
+    #resume .resume-right {
+        margin-top: 25px;
+    }
+    #resume .flex-container {
+        justify-content: center;
+    }
+    /* Blog section start here  */
+    #blog .blog-item .blog-deatils {
+        padding: 20px;
+    }
+    #blog .blog-item .blog-deatils ul {
+        justify-content: flex-start;
+    }
+    #blog .blog-item .blog-deatils ul li {
+        font-size: 15px;
+    }
+    #blog .blog-item .blog-deatils ul li:not(:last-child) {
+        margin-right: 7px;
+    }
+    #blog .blog-item .blog-deatils ul li i {
+        font-size: 14px;
+    }
+    #blog .blog-item .blog-deatils .blog-title h3 {
+        font-size: 20px;
+        line-height: initial;
+    }
+
+    /* Blog section end here  */
+}
+@media (max-width: 575.98px) {
+    section {
+        padding: 80px 0px;
+    }
+    .section-headding h2 {
+        font-size: 25px;
+        line-height: initial;
+    }
+    #navbar {
+        padding: 15px 0px;
+    }
+    #navbar .navbar-nav li a.custome_btn {
+        display: none;
+    }
+    #navbar .navbar-nav {
+        background-color: #1f2235;
+    }
+    #banner::after {
+        display: none;
+    }
+    #banner .social-link {
+        display: none;
+    }
+    #banner .banner-left h1 {
+        margin-bottom: 15px !important;
+        font-size: 35px !important;
+        line-height: initial !important;
+        margin-top: 15px !important;
+    }
+    #banner {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    #banner .banner-left p {
+        width: auto;
+    }
+    #banner .banner-left .banner-btn :first-child {
+        margin-right: 10px;
+        padding: 0px 25px;
+    }
+
+    /* services section start here  */
+    .services-icon {
+        margin-bottom: 15px;
+    }
+    #services .servicesleft .singleServicesItem.sItem_2 {
+        transform: translateY(0);
+    }
+    #services .servicesleft .singleServicesItem.sItem_4 {
+        transform: translateY(0);
+    }
+    #services .services-right {
+        margin-left: 0;
+    }
+    #services .services-right .section-headding h2 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    /* services section end here  */
+    .portfolio-item .portfolio-image img {
+        border-radius: 8px;
+        width: 100%;
+    }
+    #contact .contactInfoWraper .contact-item .icon {
+        width: 80px;
+        height: 65px;
+        line-height: 65px;
+        font-size: 24px;
+    }
+    #contact .contactInfoWraper .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 24px 15px;
+    }
+    /* testimonial section start here  */
+    .testimonial-image {
+        margin-top: 30px;
+    }
+    #testimonial .section-headding {
+        text-align: center;
+    }
+    /* tesimonial section end here  */
+    /* Resume section start here */
+    #resume .resume-center .image {
+        position: initial;
+        top: 0;
+        margin: 30px 0px;
+        transform: translateX(0);
+        text-align: center;
+    }
+    #resume .resume-right {
+        margin-top: 25px;
+    }
+    #resume .flex-container {
+        justify-content: center;
+    }
+    /* Resume section end here */
+    /* Blog section start here  */
+    #blog .blog-item .blog-deatils {
+        padding: 20px;
+    }
+    #blog .blog-item .blog-deatils ul {
+        justify-content: space-between;
+    }
+    #blog .blog-item .blog-deatils ul li {
+        font-size: 15px;
+    }
+    #blog .blog-item .blog-deatils ul li:not(:last-child) {
+        margin-right: 0px;
+    }
+    #blog .blog-item .blog-deatils ul li i {
+        font-size: 14px;
+    }
+    #blog .blog-item .blog-deatils .blog-title h3 {
+        font-size: 20px;
+        line-height: initial;
+    }
+
+    #footer_area .footer-top ul li {
+        line-height: 38px;
+        text-align: center;
+    }
+    /* Blog section end here  */
+}
